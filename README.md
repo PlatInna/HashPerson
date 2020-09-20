@@ -4,6 +4,7 @@ Coursera: C++ Development Fundamentals: Brown Belt: Week 1
 Мы хотим научиться встраивать структуру Person в контейнер unordered_set<Person, PersonHasher>. Для этого вам нужно реализовать структуры PersonHasher, 
 AddressHasher, и операторы сравнения:
 
+```c++
 struct Address {
   string city, street;
   int building;
@@ -31,7 +32,7 @@ struct AddressHasher {
 struct PersonHasher {
   // реализуйте структуру
 };
-
+```
 
 Для этого используйте стандартные хеш-функции std::hash и комбинируйте хеши полей с помощью полинома, как показано в лекции.
 Требования:
