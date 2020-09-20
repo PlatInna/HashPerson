@@ -1,7 +1,7 @@
 # HashPerson
 Coursera: C++ Development Fundamentals: Brown Belt: Week 1
 
-Мы хотим научиться встраивать структуру Person в контейнер unordered_set<Person, PersonHasher>. Для этого вам нужно реализовать структуры PersonHasher, 
+We want to learn how to embed the structure ```c++ Person ``` into the container unordered_set <Person, PersonHasher> Для этого вам нужно реализовать структуры PersonHasher, 
 AddressHasher, и операторы сравнения:
 
 ```c++
