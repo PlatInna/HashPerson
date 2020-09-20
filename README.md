@@ -34,6 +34,7 @@ struct PersonHasher {
 ```
 
 Use the standard hash functions ```std::hash``` and combine the field hashes using a polynomial, as shown in the lecture.
+
 Requirements:
    - hash functions must depend on all fields of structures
    - the hash function should evenly scatter objects of type ```Person```; this feature is checked by the ```TestDistribution``` test in the solution template.
