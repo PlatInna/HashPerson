@@ -1,9 +1,8 @@
 # HashPerson
 Coursera: C++ Development Fundamentals: Brown Belt: Week 1
 
-We want to learn how to embed the structure ```c++ Person ``` into the container unordered_set <Person, PersonHasher> Для этого вам нужно реализовать структуры PersonHasher, 
-AddressHasher, и операторы сравнения:
-
+We want to learn how to embed the structure ```Person``` into the container ```unordered_set <Person, PersonHasher>```. You need to implement the structures ```PersonHasher```,
+```AddressHasher``` and comparison operators:
 ```c++
 struct Address {
   string city, street;
@@ -34,7 +33,7 @@ struct PersonHasher {
 };
 ```
 
-Для этого используйте стандартные хеш-функции std::hash и комбинируйте хеши полей с помощью полинома, как показано в лекции.
-Требования:
-  - хеш-функции должны зависеть от всех полей структур
-  - хеш-функция должна равномерно рассеивать объекты типа Person; это её свойство проверяется тестом TestDistribution в заготовке решения.
+Use the standard hash functions ```std::hash``` and combine the field hashes using a polynomial, as shown in the lecture.
+Requirements:
+   - hash functions must depend on all fields of structures
+   - the hash function should evenly scatter objects of type ```Person```; this feature is checked by the ```TestDistribution``` test in the solution template.
